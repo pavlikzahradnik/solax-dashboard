@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# PyInstaller build
+build/
+dist/
+*.spec
+
+# Lokalni data aplikace (kdyby se spustila ve slozce projektu)
+config.json
+history.json
+daily_baseline.json
+
+# Editory / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Vystupni exe (distribuuje se pres Releases, ne v repu)
+*.exe
